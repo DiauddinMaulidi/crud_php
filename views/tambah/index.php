@@ -70,7 +70,7 @@ if (!isset($_SESSION['login'])) {
                     <button type="submit" name="simpan" class="bg-blue-600 text-white py-1 px-3 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"> Tambah
                     </button>
                     <div class="flex items-center">
-                        <a href="../index.php" class="flex justify-end">
+                        <a href="../informasi.php" class="flex justify-end">
                             <i class="fa-solid fa-backward me-1 mt-1"></i>
                             kembali
                         </a>

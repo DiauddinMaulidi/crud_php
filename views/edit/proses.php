@@ -15,8 +15,8 @@ if (isset($_POST['update'])) {
 
     if (mysqli_stmt_execute($query)) {
         echo "<script>
-                alert('Data berhasil diperbarui');
-                window.location.href = '../index.php';
+                alert('Catatan berhasil diperbarui');
+                window.location.href = '../informasi.php';
               </script>";
     } else {
         die("Error execute statement: " . mysqli_error($koneksi));
